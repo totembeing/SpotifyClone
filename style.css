@@ -1,0 +1,31 @@
+*{
+    box-sizing: border-box;
+}
+
+body, html{
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+
+.main{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    background-color: rgb(0, 0, 0);
+}
+
+.leftSide{
+    flex: 1;
+    background-color: aquamarine;
+}
+
+.rightSide{
+    flex: 3;
+    background-color: bisque;
+}
+
+.rightSide, .leftSide{
+    border-radius: 15px;
+    margin: 4px;
+}
