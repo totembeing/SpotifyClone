@@ -14,13 +14,12 @@ body, html{
     width: 100%;
     display: flex;
     gap: 8px;
-    margin: 5px;
+    padding: 5px;
 }
 
 /*Initial layout ------------------------------------------------*/
 .leftSide{
     flex: 1;
-    background-color: aquamarine;
     display: flex;
     flex-direction: column;
     gap: 8px;
@@ -28,7 +27,7 @@ body, html{
 
 .rightSide{
     flex: 3;
-    background-color: bisque;
+    background-image: linear-gradient(to bottom, rgb(74, 14, 17), rgb(25, 17, 18), rgb(18, 18, 18));
 }
 
 .rightSide, .leftSide{
@@ -39,15 +38,14 @@ body, html{
 /*Left Side code -------------------------------------------------*/
 .upperLeft{
     flex: 1;
-    border: 2px solid white;
 }
 
 .lowerLeft{
     flex: 5;
-    border: 2px solid white;
 }
 
 .upperLeft, .lowerLeft{
     border-radius: 15px;
+    background-color: rgb(18, 18, 18);
 }
 /*----------------------------------------------------------------*/
