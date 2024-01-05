@@ -121,6 +121,75 @@ body, html{
     border: 1px solid white;
 }
 
+.upperFunctionality{
+    display: flex;
+}
+
+.upperLeftFunctionality, .upperRightFunctionality{
+    flex: 1;
+    border: 1px solid white;
+    display: flex;
+    align-items: center;
+}
+
+.upperRightFunctionality{
+    justify-content: flex-end;
+    gap: 7px;
+    margin-right: 7px;
+}
+
+.lightUpArea{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 300ms ease-in;
+}
+
+.lightUpArea:hover{
+    background-color: rgb(30, 30, 30);
+    transition: 300ms ease-out;
+}
+
+.hoverGlowup:hover{
+    color: white;
+    transition: 300ms ease-in;
+}
+
+.arrowIcon, .plusIcon{
+    color: rgb(120, 120, 120);
+    font-size: 1.5rem;
+    transition: 300ms ease-out;
+    position: relative;
+}
+
+
+.upperLeftFunctionality{
+    gap: 7px;
+    padding-left: 12px;
+}
+
+.upperLeftFunctionality:hover .hoverGlowup{
+    color: white;
+    transition: 300ms ease-in;
+}
+
+.albumIcon{
+    color: rgb(120, 120, 120);
+    font-size: 1.6rem;
+    transition: 300ms ease-out;
+    transform: rotateZ(270deg);
+}
+
+.albumText{
+    color: rgb(120, 120, 120);
+    font-family: 'Chillax', sans-serif;
+    font-weight: 700;
+    transition: 300ms ease-out;
+}
+
 .library{
     flex: 4.5;
     border: 1px solid white;
