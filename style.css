@@ -1,0 +1,73 @@
+body, html {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    overflow: hidden;
+}
+
+.container {
+    height: 85%;
+    border: 2px solid black;
+    display: flex;
+    gap: 7px;
+    padding: 7px 7px 0px 7px;
+}
+
+.leftSide {
+    flex: 1;
+    border: 2px solid black;
+    border-radius: 10px;
+    min-width: 280px;
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+}
+
+.homeAndSearch {
+    flex: 1;
+    border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+.home {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+}
+
+#homeIcon {
+    flex: 1;
+    border: 1px solid black;
+}
+
+#homeTitle {
+    flex: 5;
+    border: 1px solid black;
+}
+
+.search {
+    flex: 1;
+    border: 1px solid black;
+}
+
+.yourLibrary {
+    flex: 4;
+    border: 1px solid black;
+    border-radius: 10px;
+}
+
+.rightSide {
+    flex: 2.1;
+    border: 2px solid black;
+    border-radius: 10px;
+}
+
+.footer {
+    height: 15%;
+    border: 2px solid black;
+}
