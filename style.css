@@ -26,34 +26,76 @@ body {
     gap: 7px;
 }
 
+/*Home and Search section ---------------------------------------*/
+
 .homeAndSearch {
     flex: 1;
     border: 1px solid black;
     border-radius: 10px;
     display: flex;
     flex-direction: column;
+    padding: 7px;
+    background-color: rgb(18, 18, 18);
 }
 
 .home {
     flex: 1;
     border: 1px solid black;
     display: flex;
+    border-radius: 10px;
 }
 
-#homeIcon {
+#homeIcon > a, #homeTitle > a {
+    color: white;
+}
+
+.homeAndSearchIcon {
     flex: 1;
     border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-#homeTitle {
+.homeAndSearchTitle {
     flex: 5;
     border: 1px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding-left: 5px;
 }
 
 .search {
     flex: 1;
     border: 1px solid black;
+    border-radius: 10px;
+    display: flex;
 }
+
+.searchHoverEffect {
+    color: rgb(60, 60, 60);
+    transition: 200ms ease-in-out;
+}
+
+.searchHoverEffect:hover {
+    color: white;
+}
+
+a {
+    color: inherit;
+    font-size: 1.6rem;
+    text-decoration: none;
+}
+
+a > p {
+    margin: 0%;
+    font-family: 'Chillax', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 550;
+}
+
+/*---------------------------------------------------------------*/
 
 .yourLibrary {
     flex: 4;
