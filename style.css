@@ -73,13 +73,9 @@ body {
     display: flex;
 }
 
-.searchHoverEffect {
-    color: rgb(60, 60, 60);
+#searchIcon > a, #searchTitle > a {
+    color: rgb(65, 65, 65);
     transition: 200ms ease-in-out;
-}
-
-.searchHoverEffect:hover {
-    color: white;
 }
 
 a {
