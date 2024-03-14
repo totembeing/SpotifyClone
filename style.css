@@ -93,11 +93,114 @@ a > p {
 
 /*---------------------------------------------------------------*/
 
+
+/*Your Library section ------------------------------------------*/
 .yourLibrary {
     flex: 4;
     border: 1px solid black;
     border-radius: 10px;
+    display: flex;
+    flex-direction: column;
 }
+
+.condensedVersion {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+}
+
+.extendedVersion {
+    flex: 3;
+    border: 1px solid black;
+}
+
+#titleAndOtherFunctionalities {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    background-color: rgb(18, 18, 18);
+}
+
+#title {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+}
+
+#libraryIcon {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#libraryIcon > ion-icon {
+    font-size: 1.6rem;
+    color: rgb(65, 65, 65);
+    transition: 200ms ease-in-out;
+}
+
+#libraryTitle {
+    flex: 3;
+    border: 1px solid black;
+    display: flex;
+    align-items: center;
+}
+
+#libraryTitle > p{
+    margin: 0%;
+    font-family: 'Chillax', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: rgb(65, 65, 65);
+    transition: 200ms ease-in-out;
+}
+
+#libraryIcon > ion-icon, #libraryTitle > p {
+    cursor: pointer;
+}
+
+#functionalityIcons {
+    flex: 1;
+    border: 1px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding-right: 5px;
+    gap: 5px;
+}
+
+#showMoreIcon {
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: rgb(65, 65, 65);
+}
+
+#createIcon {
+    height: 35px;
+    width: 35px;
+    border: 1px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    font-size: 1.3rem;
+    color: rgb(65, 65, 65);
+}
+
+#horizontalScroll {
+    flex: 1;
+    border: 1px solid black;
+}
+/*---------------------------------------------------------------*/
 
 .rightSide {
     flex: 2.1;
